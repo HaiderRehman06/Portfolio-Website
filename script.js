@@ -1,5 +1,7 @@
-var hamburger = document.querySelector(".hamburger-button");
+var hamBurger = document.querySelector(".hamburger-button");
 
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
+var phoneMenu = document.querySelector(".lists ul")
+hamBurger.addEventListener("click", () => {
+    hamBurger.classList.toggle("active");
+    phoneMenu.classList.toggle("active");
 });
