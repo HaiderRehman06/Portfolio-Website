@@ -54,6 +54,40 @@ a{
 
 /* INTRO SECTION */
 
+#introduction{
+    padding: 15% 90px;
+    background-image: url(./images/pexels-joshsorenson-1714208.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.intro{
+    font-size: 2.5rem;
+    color: white;
+    font-family: "Montserrat";
+}
+.intro h1{
+    font-weight:400;
+}
+.intro span{
+    color: crimson;
+}
+#btn{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.btn{
+    color: crimson;
+    border: 2px solid crimson;
+    padding: 6px 30px;
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+.btn:hover{
+    color: white;
+    background-color: crimson;
+}
 
 
 /* MEDIA QUERY SECTION */
