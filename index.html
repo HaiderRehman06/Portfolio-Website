@@ -7,33 +7,45 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
     <!-- HEADER SECTION -->
     <section id="header">
         <div class="head-container">
-            <div class="nav-bar">
+            <div class="navbar">
                 <div class="brand">
                     <a href="#hero">
                         <h1><span>H</span>aider <span>R</span>ehman</h1>
                     </a>
                 </div>
-                <div class="lists">
+                <div class="list">
                     <div class="hamburger-button">
                         <div class="bar"></div>
                     </div>
                     <ul>
-                        <li><a href="#hero">Home</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#introduction" data-after="Home">Home</a></li>
+                        <li><a href="#service" data-after="Service">Service</a></li>
+                        <li><a href="#projects" data-after="Porjects">Projects</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    
 
-<!-- S  -->
+    <!-- INTRO SECTION -->
+     <section id="introduction">
+        <div class="intro">
+            <div >
+                <h1>Hello,</h1>
+                <h1>My Name is</h1>
+                <h1><span>Haider</span></h1>
+            </div>
+            <div id="btn">
+                <a href="#projects" type="button" class="btn">PORTFOLIO</a>
+            </div>
+        </div>
+     </section>
 <script src="./script.js"></script>
 </body>
 </html>
