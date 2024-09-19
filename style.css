@@ -18,9 +18,12 @@ a{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1000;
 }
 .head-container{
-    background-color: rgba(49, 48, 48, 0.5);
+    background-color: transparent;
+    transition: 0.4s ease ;
+    
 }
 .navbar{
     display: flex;
@@ -110,14 +113,70 @@ a{
     color: crimson;
 }
 .options img{
-    width: 100px;
+    width: 80px;
+    
 }
 .options{
     display: flex;
     margin-bottom: 5%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding:0 5% ;
+    flex-wrap: wrap;
+    font-family: "Montserrat", sans-serif;
+}
+.s-1{
+    
+    background-image: url(./images/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    width: 240px;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.s-1 h3{
+    margin-top: 15px;
+}
+.s-1:hover{
+    scale: 1.1;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+/* PROJECT SECTION  */
+#projects h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: xxx-large;
+    margin-bottom: 4%;
+}
+#projects span{
+    color: crimson;
+}
+.project-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}
+.proj-image{
+    overflow: hidden;
+    position: relative;
+}
+.project-1 img{
+    width: 100%;
+    transition: 0.4s ease transform; 
+}
+.project-1 img:hover{
+    transform: scale(1.1);
+}
+.project-info{
+    background: linear-gradient();
 }
 
 /* MEDIA QUERY SECTION */
