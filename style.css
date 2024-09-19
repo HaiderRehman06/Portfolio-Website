@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 a{
     text-decoration: none;
 }
@@ -89,6 +92,33 @@ a{
     background-color: crimson;
 }
 
+/* SERVICE AECTION */
+
+.service-intro{
+    text-align: center;
+    margin: 5% 30%;
+    font-family: "Montserrat", sans-serif;
+}
+.service-intro h1{
+    font-size: xxx-large;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    
+}
+.service-intro span{
+    color: crimson;
+}
+.options img{
+    width: 100px;
+}
+.options{
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5% ;
+}
 
 /* MEDIA QUERY SECTION */
 
