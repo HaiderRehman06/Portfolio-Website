@@ -88,7 +88,6 @@ a{
     border: 2px solid crimson;
     padding: 6px 30px;
     font-family: "Montserrat";
-    font-size: 25px;
 }
 .btn:hover{
     color: white;
@@ -114,8 +113,8 @@ a{
 }
 .options img{
     width: 80px;
-    
 }
+
 .options{
     display: flex;
     margin-bottom: 5%;
@@ -126,7 +125,6 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 .s-1{
-    
     background-image: url(./images/background-image.jpg);
     background-position: center;
     background-size: cover;
@@ -200,6 +198,7 @@ a{
     font-size: larger;    
 }
 
+
 /* ABOUT ME SECTION */
 
 #about{
@@ -217,8 +216,7 @@ a{
 }
 .image{
     border: 10px solid crimson;
-    margin-bottom:-30px ;
-    margin-left: -40px;
+    margin-bottom: 1%;
 }
 .my-info{
     display: flex;
@@ -265,6 +263,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3%;
 }
 .diff-contact{
     align-items: center;
@@ -272,10 +272,12 @@ a{
     padding: 4% 4%;
     border-radius: 10px;
     box-shadow: 2px 3px 10px black;
+    margin: 2%;
 }
 .diff-contact div{
-    margin-left: 30px;
+    padding-left: 30px;
 }
+
 .diff-contact-3{
     align-items: center;
     display: flex;
@@ -329,11 +331,108 @@ footer{
         z-index: 2; 
 }
 
-
-
 /* MEDIA QUERY SECTION */
-
-@media (max-width: 420px){
+@media only screen and( max-width: 1020px) {
+    .list ul li{
+        font-size: medium;        
+        padding-inline: 15px;
+    }
+    .proj-image img{
+        width: 540px;
+        height: 100%;
+    }
+    .project-info p{
+        font-size: medium;
+    } 
+}
+@media only screen and (max-width: 990px) {
+    
+    .about-me p{
+        font-size: 15px;
+    }
+    .about-me h1{
+        font-size: small;
+    }
+    .options .s-1{
+        width: 400px;        
+    }
+}
+@media only screen and (max-width:800px) {
+    .brand h1{
+        font-size: x-large;
+    }
+    .list ul li {
+        font-size: 15px;
+        padding-inline:5px ;
+    }
+    .intro{
+        font-size: x-large;
+    }
+    .service-intro h1{
+        font-size: 35px;
+    }
+    .service-intro {
+        margin: 5% 9%;
+    }
+}
+@media only screen and ( max-width: 600px){
+    .brand h1{
+        font-size: 28px;
+    }
+    .intro{
+        font-size: x-large;
+    }
+    #introduction{
+        padding-left : 30px;
+    }
+    .btn{
+        font-size: medium;
+    }
+    .service-intro h1{
+        font-size: xx-large;
+    }
+    .service-intro p{
+        font-size: small;
+        margin: 0 10%;
+    }
+    #projects h1{
+        font-size: xx-large;
+    }
+    .project-1{
+        margin: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    }
+    .proj-image{
+        border-radius: 10px;
+        height: 280px;
+    }
+    .my-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #about{
+        text-align: center;
+    }
+    #about h1{
+        font-size: xx-large;
+        margin-top: 40px;
+    }
+    .image{
+        padding-bottom: 40px;
+    }
+    #contact h1{
+        font-size: xx-large;
+        text-align: center;
+    }
+    .diff-contact-3{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .footer-section h1{
+        font-size: x-large;
+    }
     .hamburger-button{
         border:2.5px solid white;
         height: 50px;
