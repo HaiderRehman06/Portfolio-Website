@@ -245,6 +245,45 @@ a{
     color: white;
 }
 
+/* CONTACT SECTION */
+
+#contact > h1{
+    font-family: "Montserrat",sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+}
+#contact h1{
+    font-weight: 300;
+}
+#contact span{
+    color: crimson;
+}
+.contact-me{
+    margin:80px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.diff-contact{
+    align-items: center;
+    display: flex;
+    padding: 4% 4%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black;
+}
+.diff-contact div{
+    margin-left: 30px;
+}
+.diff-contact-3{
+    align-items: center;
+    display: flex;
+    padding: 4% 2%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px black;
+}
+
 /* FOOTER SECTION */
 
 footer{
