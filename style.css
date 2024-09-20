@@ -148,6 +148,8 @@ a{
 }
 
 /* PROJECT SECTION  */
+
+
 #projects{
     font-family: "Poppins";
 }
@@ -204,17 +206,18 @@ a{
     font-family: "Montserrat",sans-serif;
     margin: 0 20%;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 .image img{
-    width: 220px;
-    height: 280px;
+    width: 230px;
+    height: 295px;
     margin-top: -20%;
     margin-left:18% ;
     border: 10px solid white;
 }
 .image{
     border: 10px solid crimson;
-    margin-bottom:-20px ;
+    margin-bottom:-30px ;
     margin-left: -40px;
 }
 .my-info{
@@ -233,7 +236,7 @@ a{
 }
 .about-me a{
     border: 3px solid crimson;
-    padding: 18px;
+    padding: 13px 18px;
     margin-top: 40px;
     color: black;
 }
@@ -241,6 +244,54 @@ a{
     background-color: crimson;
     color: white;
 }
+
+/* FOOTER SECTION */
+
+footer{
+    margin-top: 20px;
+    background: rgb(116, 198, 228);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(to left,rgb(57, 55, 55),rgb(93, 71, 71),rgb(177, 179, 238));
+}
+.footer h1{
+    font-weight: 200;
+}
+.footer-section span{
+    color: crimson;
+}
+
+.avatars {
+    --avatar-count:10;
+    --avatar-size:50px;
+    --transition-duration: 500ms;
+}
+.avatar{
+    width: var(--avatar-size);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 100vw;
+    border: 5px solid white;
+    box-shadow: .25rem .25rem .5rem hsl(0 0% 0% / .2);
+    transition: var(--transition-duration);
+    background-color: wheat;
+}
+
+.avatar:hover,
+.avatar:focus { 
+        scale:1.4;  
+        z-index: 2; 
+}
+
+
+
 /* MEDIA QUERY SECTION */
 
 @media (max-width: 420px){
