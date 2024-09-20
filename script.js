@@ -12,8 +12,8 @@ hamBurger.addEventListener("click", () => {
 
 menuitem.forEach((item) => {
     item.addEventListener("click", () => { 
-     hamBurger.classList.toggle("active");
-     phoneMenu.classList.toggle("active");
+        hamBurger.classList.toggle("active");
+        phoneMenu.classList.toggle("active");
     });
 });
 
