@@ -338,15 +338,15 @@ footer{
         padding-inline: 15px;
     }
     .proj-image img{
-        width: 540px;
+        width: 100%;
         height: 100%;
     }
     .project-info p{
         font-size: medium;
     } 
+
 }
 @media only screen and (max-width: 990px) {
-    
     .about-me p{
         font-size: 15px;
     }
@@ -356,13 +356,20 @@ footer{
     .options .s-1{
         width: 400px;        
     }
+    .list ul li {
+        font-size: 17px;
+        padding-inline:10px ;
+    }
+    .brand h1{
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:800px) {
     .brand h1{
         font-size: x-large;
     }
     .list ul li {
-        font-size: 15px;
+        font-size: 14px;
         padding-inline:5px ;
     }
     .intro{
@@ -373,6 +380,59 @@ footer{
     }
     .service-intro {
         margin: 5% 9%;
+    }
+    .options .s-1{
+        width: 80%;
+    }
+    #projects{
+        margin: 0 5%;
+    }
+    #projects h1{
+        font-size: xx-large;
+    }
+    .proj-image{
+        width:450px;
+        height: 280px;
+        margin: 0px;
+    }
+    .project-info h3{
+        font-size: x-large;
+    }
+    .project-info i, p{
+        font-size: 12px;
+    }
+    #about{
+        margin: 20% 10%;
+    }
+    .about-me h1{
+        font-size: xx-large
+    }
+    #contact h1{
+        font-size: xx-large;
+    }
+    .diff-contact{
+        display: flex;
+        margin: 5% 15%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .diff-contact-3{
+        display: flex;
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .diff-contact-3 div{
+        padding-left:50px ;
+    }
+    .diff-contact div{
+        padding-left:50px ;
+    }
+    .diff-contact p{
+        font-size: 20px;
     }
 }
 @media only screen and ( max-width: 600px){
@@ -404,9 +464,10 @@ footer{
         flex-wrap: wrap;
         border-radius: 10px;
     }
-    .proj-image{
+    .proj-image img{
         border-radius: 10px;
-        height: 280px;
+        width: 420px;
+        height: 270px;
     }
     .my-info{
         display: flex;
@@ -423,12 +484,25 @@ footer{
         padding-bottom: 40px;
     }
     #contact h1{
-        font-size: xx-large;
+        font-size: x-large;
         text-align: center;
+    }
+    .diff-contact div {
+        padding-left: 30px;
+    }
+    .diff-contact h1 {
+        font-size: xx-small;
+    }
+    .diff-contact{
+        width: 60%;
     }
     .diff-contact-3{
         font-size: 14px;
         margin-top: 10px;
+        width: 60%;
+    }
+    .diff-contact-3 div{
+        padding-left: 30px;
     }
     .footer-section h1{
         font-size: x-large;
